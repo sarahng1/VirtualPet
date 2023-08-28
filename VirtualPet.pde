@@ -10,13 +10,13 @@ void draw()
     ellipse(150,150,120,120);
     noFill();
       //Two Eyes
-        circle(170,126,30);
+        ellipse(170,126,30,30);
         noFill();
         ellipse(125,125,30,30);
           //Two Pupils
             fill(0,0,0);
-            circle(169,130,10);
-            circle(125,130,10);
+            ellipse(169,130,10,10);
+            ellipse(125,130,10,10);
             noFill();
           //Beak
             fill(252,244,3);
